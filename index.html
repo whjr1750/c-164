@@ -23,7 +23,7 @@
     <!--Assets-->
     <a-assets>
       <a-asset-item id="shooter" src="./models/shooter/gun.gltf"></a-asset-item>
-      <a-asset-item id="shooter" src="./models/navmesh.gltf"></a-asset-item>
+      <a-asset-item id="collider" src="./models/navmesh.gltf"></a-asset-item>
       <audio id="shoot" src="./sounds/shoot.mp3"></audio>
       <audio id="footstep" src="./sounds/footStep.mp3"></audio>
 
@@ -63,7 +63,7 @@
       static-body visible="false">
     </a-plane>
 
-    <a-entity id = "navigationmesh" gltf-model = "#collider" visible = false nav-mesh>
+    <a-entity id = "navigation-mesh" gltf-model = "#collider" visible = "false" nav-mesh>
 
     </a-entity>
 
